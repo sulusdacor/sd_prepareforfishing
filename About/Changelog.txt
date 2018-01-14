@@ -1,0 +1,26 @@
+personal changelog for mod "[sd]prepare for fishing"
+
+- 26/12/2016
+
+	- updated code to a16
+	- renamed stuff to lower case (PrepareForFishing to prepareforfishing)
+	- renamed building class to Building_fishfeedingbox
+	- added mass 25
+
+- 07/01/2017
+
+	- fixed the xml tag Worktobuild, had old one here, which resulted in instant buildtimes
+
+- 04/06/2017
+
+	- update to a17
+	- updated about file,since load order does not matter with patches
+	- added sellpricefactor to building base
+	- added new water variants to placeworker (ocean/moving)
+	- added some code to inspect string for empty lines/new lines
+
+- 28/12/2017
+
+	- update to b18
+	- added+fixed the map in placeworker code
+	- set rotatable to false for the box thingdef
