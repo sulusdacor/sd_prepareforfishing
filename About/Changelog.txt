@@ -24,3 +24,7 @@ personal changelog for mod "[sd]prepare for fishing"
 	- update to b18
 	- added+fixed the map in placeworker code
 	- set rotatable to false for the box thingdef
+
+- 15/01/2018
+
+	- added modsync
