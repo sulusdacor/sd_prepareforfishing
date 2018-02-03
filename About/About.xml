@@ -5,16 +5,16 @@
   <targetVersion>0.18.1722</targetVersion>
   <url>https://ludeon.com/forums/index.php?topic=26276.0</url>
 	<description>"PrepareForFishing"
+	Ver.: b18-1.1.0
 	
-	Fix to use the mod Fishindustry with my bridges mod.
+	Originally this was a Fix to use the mod Fishindustry with my bridges mod.
+	You can use it without it. This can fix the water effects if you terraform and wish to do so.
 	
-	This needs to be loaded after the [sd] bridges mod since it uses the terraform category created by bridges: 1. bridges 2. prepare for fishing
+	It needs [sd] brdiges.
 	
-	Where you load fishindustry mod does not matter at all.
-	
-	- you can build fishfeeding box, select the watertile(shallow,deep,marsh), start and it convertes watertiles to vanilla terrain tiles (takes ~1day).
+	- you can build fishfeeding box, select the watertile(deep, deep - ocean, deep - moving, shallow, shallow - ocean, shallow - moving, marsh), start and it convertes watertiles to vanilla terrain tiles (takes ~1day).
 	- the fishfeeding box is in the terraforming menu
 	- you can use this without fishindustry will not cause errors, but will not give you any benefit, other then converting tiles without a pawn doing activly the job of terraforming(just need to build the fishfeeder)
 	
-	Download links for Dropbox (current or older versions) or Steamworkshop link for current Rimworld version can be found in the ludeon forum thread linked above.</description>
+	Download links for Dropbox/GitHub (current or older versions) or Steamworkshop link for current Rimworld version can be found in the ludeon forum thread linked above.</description>
 </ModMetaData>

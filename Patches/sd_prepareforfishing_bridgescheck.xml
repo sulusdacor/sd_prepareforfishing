@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<!--========================= check load order =============================-->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+			<operations>
+				<li Class="ModCheck.isModLoaded">
+					<modName>[sd] bridges</modName>
+					<yourMod>[sd] prepareforfishing</yourMod>
+					<customMessageSuccess>Found [sd] bridges.</customMessageSuccess>
+					<customMessageFail>Missing [sd] bridges! </customMessageFail>
+					<errorOnFail>true</errorOnFail>
+				</li>
+				<!--
+				<li Class="ModCheck.loadOrder">
+					<modName>[sd] bridges</modName>
+					<yourMod>[sd] prepareforfishing</yourMod>
+					<errorOnFail>true</errorOnFail>
+					<customMessageFail>Load order: 1.[sd] bridges 2. [sd] prepareforfishing </customMessageFail>
+					<yourModFirst>false</yourModFirst>
+				</li>
+				-->
+			</operations>
+		</Operation>
+
+</Patch>
